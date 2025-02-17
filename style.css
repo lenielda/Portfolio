@@ -1,0 +1,144 @@
+/* Nom et Prénom: Dayan GANHOUEGNON */
+/* Style global */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin: 0 10px;
+}
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  transition: background-color 0.3s;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+header h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #444;
+  text-align: center;
+}
+
+/* About Section */
+#about {
+  padding: 50px 15px;
+  text-align: center;
+}
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 15px;
+  background: #f9f9f9;
+}
+#skillsChart {
+  max-width: 600px;
+  margin: 20px auto;
+}
+#skills .chart-legend {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #666;
+}
+
+/* Projects Section */
+#projects .card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#projects .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Experience Section */
+#experience {
+  background: #f9f9f9;
+  padding: 50px 15px;
+}
+#experience h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#experience ul {
+  padding-left: 20px;
+}
+#experience li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 15px;
+}
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact .form-label {
+  font-weight: bold;
+}
+#contact button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#contact button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}

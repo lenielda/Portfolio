@@ -1,0 +1,204 @@
+<!-- Nom et Prénom: Dayan GANHOUEGNON -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Dayan Ganhouegnon</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Typed.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Chart.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- AOS Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Expériences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#languages">Langues</a></li>
+          <li class="nav-item"><a class="nav-link" href="#interests">Centres d’intérêt</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-white text-center py-5" style="background: linear-gradient(to right, #007bff, #6610f2);">
+    <div class="pt-5 container">
+      <h1>Dayan Ganhouegnon</h1>
+      <h3><span id="typed"></span></h3>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <main>
+    <section id="about" class="py-5">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center">À propos</h2>
+        <p class="text-center">Étudiant en Licence 3 Informatique Numérique et passionné par l’analyse de données. Je recherche un stage de fin d’études pour enrichir mes compétences en traitement et visualisation de données.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container" data-aos="fade-right">
+        <h2 class="text-center">Compétences</h2>
+        <canvas id="skillsChart" width="400" height="200"></canvas>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container" data-aos="fade-left">
+        <h2 class="text-center">Projets</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Analyse des Données COVID-19</h5>
+                <p class="card-text">Analyse statistique et visualisation des données liées à la pandémie pour soutenir les politiques de santé publique.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Satisfaction des Usagers des Transports</h5>
+                <p class="card-text">Étude des retours utilisateurs et recommandations pour améliorer les services de transport.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-light">
+      <div class="container" data-aos="zoom-in">
+        <h2 class="text-center">Expériences Professionnelles</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Stagiaire Agroéconomiste</h5>
+            <p><strong>Institut National des Recherches Agricoles du Bénin (INRAB)</strong> | Février - Mai 2022</p>
+            <ul>
+              <li>Analyse de données pour des projets agricoles.</li>
+              <li>Rédaction de rapports synthétiques.</li>
+              <li>Conception de bases de données pour le suivi des pratiques agricoles.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h5>Mission de Collecte de Données</h5>
+            <p><strong>Programme Analyse de la Politique Agricole (PAPA), INRAB – Département de la Donga, Bénin</strong> | Juillet 2021</p>
+            <ul>
+              <li>Digitalisation et gestion de questionnaires d’enquête via CsPro.</li>
+              <li>Collecte et traitement de données sur le terrain (échantillon de 400 exploitants agricoles).</li>
+              <li>Production d’un rapport visant à améliorer les politiques agricoles locales.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section id="formation" class="py-5">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center">Formation</h2>
+        <ul>
+          <li><strong>2024 - 2025 :</strong> Licence 3 Informatique Numérique et Gestion Industrielle, Université Savoie Mont Blanc, Annecy, France.</li>
+          <li><strong>2021 :</strong> Master 1 Agroéconomie, Université d’Abomey-Calavi, Calavi, Bénin.</li>
+          <li><strong>2020 :</strong> Licence en Agronomie, option Gestion des Entreprises Rurales et Agricoles, Université Catholique de l’Afrique de l’Ouest, Cotonou, Bénin.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="py-5 bg-light">
+      <div class="container" data-aos="fade-right">
+        <h2 class="text-center">Langues</h2>
+        <ul>
+          <li><strong>Français :</strong> Langue maternelle.</li>
+          <li><strong>Anglais :</strong> Niveau intermédiaire (B1) - Cours de perfectionnement en cours.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="py-5">
+      <div class="container" data-aos="fade-left">
+        <h2 class="text-center">Centres d’intérêt</h2>
+        <ul>
+          <li>Intérêt pour la transformation digitale et les systèmes d’information.</li>
+          <li>Fitness et bien-être.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center">Contact</h2>
+        <form id="contact-form" name="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>        
+        <p id="confirmationMessage" class="text-success mt-3" style="display: none;">Merci pour votre message ! Nous vous répondrons bientôt.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Dayan Ganhouegnon. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init('YOUR_ i6B50yZbRvypxv08K');
+    })();
+  </script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
